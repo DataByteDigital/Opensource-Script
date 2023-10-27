@@ -1,3 +1,4 @@
+sudo apt install git -y
 sudo apt update && sudo apt upgrade -y 
 sudo apt install neofetch -y
 sudo ufw app list
