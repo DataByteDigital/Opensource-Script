@@ -9,7 +9,7 @@ sudo apt purge docker-desktop
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
 wget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.25.0-amd64.deb
-sudo apt-get install ./docker-desktop-4.25.0-amd64.deb
+yes | sudo apt-get install ./docker-desktop-4.25.0-amd64.deb
 
 sudo systemctl --user start docker-desktop
 
