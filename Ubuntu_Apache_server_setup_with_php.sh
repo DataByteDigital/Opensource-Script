@@ -1,3 +1,7 @@
+# wget https://raw.githubusercontent.com/madhuryadutta/sh_scripts/main/Ubuntu_Apache_server_setup_with_php.sh && sudo chmod +x Ubuntu_Apache_server_setup_with_php.sh && ./Ubuntu_Apache_server_setup_with_php.sh
+
+
+
 sudo apt update && sudo apt upgrade -y 
 sudo apt install neofetch -y
 sudo apt install apache2 -y
