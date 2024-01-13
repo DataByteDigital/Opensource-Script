@@ -1,8 +1,8 @@
-<!---------------------------------------------- Single Command Installation------------------------------------------------------------->
+# ---------------------------------------------- Single Command Installation------------------------------------------------------------->
 
-wget https://raw.githubusercontent.com/DataByteDigital/Opensource-Script/main/linux/production/composer/composer_install.sh && sudo chmod +x composer_install.sh && ./composer_install.sh
+# wget https://raw.githubusercontent.com/DataByteDigital/Opensource-Script/main/linux/production/composer/composer_install.sh && sudo chmod +x composer_install.sh && ./composer_install.sh
 
-<!---------------------------------------------- Single Command Installation------------------------------------------------------------->
+# ---------------------------------------------- Single Command Installation------------------------------------------------------------->
 
 yes | sudo apt-get install php-curl
 yes | sudo apt-get install -y git libzip-dev zip unzip
