@@ -1,3 +1,13 @@
+<!---------------------------------------------- Single Command Installation------------------------------------------------------------->
+
+wget https://raw.githubusercontent.com/DataByteDigital/Opensource-Script/main/linux/production/composer/composer_install.sh && sudo chmod +x composer_install.sh && ./composer_install.sh
+
+<!---------------------------------------------- Single Command Installation------------------------------------------------------------->
+
+yes | sudo apt-get install php-curl
+yes | sudo apt-get install -y git libzip-dev zip unzip
+yes | sudo apt install openssl php-bcmath php-curl php-json php-mbstring php-mysql php-tokenizer php-xml php-zip
+
 cd ~
 curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
 ls
