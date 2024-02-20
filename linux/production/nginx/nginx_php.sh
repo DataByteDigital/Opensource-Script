@@ -11,3 +11,5 @@ wget https://raw.githubusercontent.com/DataByteDigital/Opensource-Script/main/li
 sudo chmod +x nginx.sh
 ./nginx.sh
 
+## Auto cleaning
+ sudo rm nginx.sh
