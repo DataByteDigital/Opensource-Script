@@ -6,4 +6,4 @@ sudo chmod +x ~/.docker/cli-plugins/docker-compose
 sudo docker compose version
 
 
-sudo apt  install docker-compose
+sudo apt install docker-compose
