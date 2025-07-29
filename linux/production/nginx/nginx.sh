@@ -8,6 +8,7 @@ sudo ufw allow 'Nginx HTTP'
 yes | sudo ufw enable  
 
 ##both 80 and 443 is added to the ip table
+yes | sudo apt install netfilter-persistent iptables-persistent
 sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
 sudo netfilter-persistent save
 sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 443 -j ACCEPT
